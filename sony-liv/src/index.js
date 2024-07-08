@@ -1,34 +1,35 @@
-const { app, BrowserWindow } = require('electron');
-const path = require('node:path');
+const { app, BrowserWindow, Menu } = require("electron");
+const path = require("node:path");
 
-if (require('electron-squirrel-startup')) {
+if (require("electron-squirrel-startup")) {
   app.quit();
 }
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
-    width: 1200,
+    width: 1000,
     height: 600,
     webPreferences: {
       nodeIntegration: true,
     },
   });
 
-  mainWindow.loadURL('https://www.sonyliv.com/');
+  // Menu.setApplicationMenu(null);
+  mainWindow.loadURL("https://www.sonyliv.com/");
 };
 
 app.whenReady().then(() => {
   createWindow();
 
-  app.on('activate', () => {
+  app.on("activate", () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow();
     }
   });
 });
 
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
     app.quit();
   }
 });

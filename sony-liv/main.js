@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow } = require("electron");
 
 let win;
 
@@ -7,26 +7,26 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      nodeIntegration: true
-    }
+      nodeIntegration: true,
+    },
   });
 
-  win.loadURL('https://www.sonyliv.com/');
+  win.loadURL("https://www.sonyliv.com/");
 
-  win.on('closed', () => {
+  win.on("closed", () => {
     win = null;
   });
 }
 
-app.on('ready', createWindow);
+app.on("ready", createWindow);
 
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
     app.quit();
   }
 });
 
-app.on('activate', () => {
+app.on("activate", () => {
   if (win === null) {
     createWindow();
   }
