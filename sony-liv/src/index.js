@@ -7,7 +7,7 @@ if (require('electron-squirrel-startup')) {
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
-    width: 800,
+    width: 1200,
     height: 600,
     webPreferences: {
       nodeIntegration: true,
@@ -15,8 +15,6 @@ const createWindow = () => {
   });
 
   mainWindow.loadURL('https://www.sonyliv.com/');
-
-  mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
