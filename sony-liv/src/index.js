@@ -12,6 +12,7 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: true,
     },
+    icon: path.join(__dirname, "/src/icon.png"),
   });
 
   // Menu.setApplicationMenu(null);
