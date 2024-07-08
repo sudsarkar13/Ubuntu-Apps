@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sony Liv
+Comment=Sony Liv desktop application
+Exec=/usr/bin/electron /usr/share/sony-liv/main.js
+Icon=/usr/share/sony-liv/icon.png
+Terminal=false
+Categories=AudioVideo;Video;

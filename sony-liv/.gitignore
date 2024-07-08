@@ -90,3 +90,6 @@ typings/
 
 # Electron-Forge
 out/
+
+# Files
+sony-liv-linux-x64
