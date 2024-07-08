@@ -28,14 +28,6 @@ module.exports = {
       },
     },
     {
-      name: "@electron-forge/maker-rpm",
-      config: {
-        options: {
-          icon: "./src/icon.png",
-        },
-      },
-    },
-    {
       name: "@electron-forge/maker-dmg",
       config: {
         options: {
