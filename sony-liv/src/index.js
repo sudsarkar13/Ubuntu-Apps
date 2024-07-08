@@ -9,6 +9,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
+    title: 'Sony LIV',
     webPreferences: {
       nodeIntegration: true,
     },
