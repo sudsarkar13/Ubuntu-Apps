@@ -1,6 +1,5 @@
 {
   "name": "jio-cinema",
-  "productName": "jio-cinema",
   "version": "1.0.0",
   "description": "Welcome to Jio Cinema, the ultimate entertainment app that brings you a vast library of movies, TV shows, and original content. With a user-friendly interface and a wide range of genres to choose from, Jio Cinema is your one-stop destination for non-stop entertainment. Movies: Catch up on the latest Bollywood, Hollywood, and regional movies, including new releases and classic films. Our collection includes a wide range of genres, from action and comedy to romance and horror. TV Shows: Get access to a vast library of TV shows, including popular Indian and international series, reality TV, and kids' content. Originals: Enjoy exclusive original content, including web series, short films, and documentaries, produced by Jio Cinema. Our originals are available in multiple languages, ensuring there's something for everyone. Features: Personalization: Create your own watchlist and get personalized recommendations based on your viewing history and preferences. Multi-language support: Content available in Hindi, English, Tamil, Telugu, and other languages. Download and watch offline: Download your favorite content and watch it offline, anytime, anywhere. Multi-device support: Watch on your mobile, tablet, or TV.",
   "main": "src/index.js",
