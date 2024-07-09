@@ -16,7 +16,7 @@ const createWindow = () => {
     icon: path.join(__dirname, "./src/icon.png"),
   });
 
-  Menu.setApplicationMenu(null);
+  // Menu.setApplicationMenu(null);
   mainWindow.loadURL("https://www.sonyliv.com/");
 };
 
