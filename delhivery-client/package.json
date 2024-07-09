@@ -6,14 +6,19 @@
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make",
+    "package": "electron-forge package --platform=linux --arch=x64",
+    "package:win": "electron-forge package --platform=win32 --arch=x64",
+    "package:mac": "electron-forge package --platform=darwin --arch=x64",
+    "make": "electron-forge make --platform=linux",
+    "make:win": "electron-forge make --platform=win32",
+    "make:mac": "electron-forge make --platform=darwin",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
   "dependencies": {
     "@electron/packager": "^18.3.3",
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "keytar": "^7.9.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",
