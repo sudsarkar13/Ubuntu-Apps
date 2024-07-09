@@ -1,6 +1,6 @@
 {
   "name": "sony-liv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Welcome to Sony LIV, the ultimate entertainment app that brings you the best of live TV, sports, and original content from Sony Pictures Networks India. With a vast library of content, Sony LIV is your one-stop destination for non-stop entertainment.Live TV: Catch up on your favorite TV shows, news, and events in real-time. Sony LIV offers a wide range of channels, including Sony TV, Sony SAB, Sony MAX, Sony MAX2, Sony YAY!, and more.Sports: Get ready to cheer for your favorite teams and players with our extensive sports coverage. Watch live cricket, football, tennis, and other sports events, including international tournaments and leagues.Originals: Enjoy exclusive original content, including web series, short films, and documentaries, produced by Sony LIV. Our originals are available in multiple languages, ensuring there's something for everyone.",
   "main": "src/index.js",
   "scripts": {
