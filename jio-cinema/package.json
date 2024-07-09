@@ -14,6 +14,10 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
+  "debian": {
+    "packageName": "Jio-Cinema",
+    "packageDescription": "Jio Cinema is an entertainment app that brings you a vast library of movies, TV shows, and original content. With a user-friendly interface and a wide range of genres to choose from, Jio Cinema is your one-stop destination for non-stop entertainment."
+  },
   "dependencies": {
     "@electron/packager": "^18.3.3",
     "electron-squirrel-startup": "^1.0.1"
