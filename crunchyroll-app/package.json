@@ -1,8 +1,8 @@
 {
-  "name": "delhivery-client",
-  "productName": "delhivery-client",
+  "name": "crunchyroll-app",
+  "productName": "crunchyroll-app",
   "version": "0.0.1",
-  "description": "Delhivery Client application for ease of use.",
+  "description": "crunchyroll app",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",

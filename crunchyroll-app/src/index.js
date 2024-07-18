@@ -9,14 +9,14 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
-    title: "Sony LIV",
+    title: "Crunchyroll App",
     webPreferences: {
       nodeIntegration: true,
     },
     icon: path.join(__dirname, "./src/icon.png"),
   });
 
-  mainWindow.loadURL("https://ucp.delhivery.com/login");
+  mainWindow.loadURL("https://www.crunchyroll.com");
 };
 
 app.whenReady().then(() => {
